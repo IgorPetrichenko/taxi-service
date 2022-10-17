@@ -6,10 +6,12 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 public class ConnectionUtil {
-    private static final String URL = "jdbc:mysql://localhost:3306/"
-            + "taxi?buseUnicode=true&serverTimezone=UTC";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "123456";
+    private static final String URL = "jdbc:mysql://awseb-e-dpmp37the5-stack"
+            + "-awsebrdsdatabase-nk0qoshvyufp.cdairmxcratb"
+            + ".us-east-1.rds.amazonaws.com:3306/"
+            + "taxi";
+    private static final String USERNAME = "admin";
+    private static final String PASSWORD = "Ma-34523562";
     private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
 
     static {
